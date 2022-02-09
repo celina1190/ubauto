@@ -328,7 +328,7 @@ while True:
             time.sleep(1) 
             if a['currency'] == 'KRW':
                 print(a['balance'])
-                buy_amount = float(a['balance'])*0.10
+                buy_amount = float(a['balance'])*0.65
                 print(round(buy_amount, -2))
                 buy_amount = round(buy_amount, -2)
 
